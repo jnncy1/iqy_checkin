@@ -1,0 +1,23 @@
+{
+  "name": "iqiyi",
+  "version": "1.0.0",
+  "author": "",
+  "description": "爱奇艺每日签到及抽奖",
+  "main": "iqiyi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangyaoOMG/iqiyi.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiangyaoOMG/iqiyi/issues"
+  },
+  "homepage": "https://github.com/jiangyaoOMG/iqiyi#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
