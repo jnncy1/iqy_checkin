@@ -1,9 +1,8 @@
 /*
- * @Author: your name
+ * @Author: chengquan
  * @Date: 2020-08-05 15:28:57
- * @LastEditTime: 2020-08-05 16:29:23
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @LastEditTime: 2020-08-05 16:36:19
+ * @Description: 爱奇艺每日签到和会员抽奖
  * @FilePath: \iqy_checkin\iqiyi.js
  */
 const axios = require('axios');
