@@ -1,7 +1,7 @@
 /*
  * @Author: chengquan
  * @Date: 2020-08-05 15:28:57
- * @LastEditTime: 2020-08-05 16:36:19
+ * @LastEditTime: 2020-08-06 11:03:32
  * @Description: 爱奇艺每日签到和会员抽奖
  * @FilePath: \iqy_checkin\iqiyi.js
  */
@@ -12,7 +12,10 @@ const axios = require('axios');
  * 例子：e6Um38snn9zAGBdrEkMgqWLsm3RO97pfAhwJi84ypALsm3qM0JfHGlvXm3le5***********
  */
 const { cookies } = require('./config.json');
-sign();
+
+exports.main_handler = () => {
+  sign();
+}
 
 function sign() {
   cookies.forEach(cookie => {
