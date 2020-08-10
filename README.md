@@ -23,19 +23,19 @@
 
 + 腾讯云函数服务里，新建函数，配置如图
 
-  ![newfunction][https://github.com/chengquanomg/iqy_checkin/blob/master/images/newfunction.png]
+  ![newfunction](https://github.com/chengquanomg/iqy_checkin/blob/master/images/newfunction.png)
 
 + 将整个代码文件夹上传至云函数，提交方法修改为本地上传文件夹，上传方式修改为在线安装依赖。
 
-  ![upload][https://github.com/chengquanomg/iqy_checkin/blob/master/images/upload.png]
+  ![upload](https://github.com/chengquanomg/iqy_checkin/blob/master/images/upload.png)
 
 + 上传完成后，修改`config.json`文件里的cookies数组，测试是否可用即可。
 
-  ![update][https://github.com/chengquanomg/iqy_checkin/blob/master/images/update.png]
+  ![update](https://github.com/chengquanomg/iqy_checkin/blob/master/images/update.png)
 
 + 测试可用后，创建触发器，我使用的是cron表达式定时触发，图上的是指每天6点触发一次
 
-  ![cron][https://github.com/chengquanomg/iqy_checkin/blob/master/images/cron.png]
+  ![cron](https://github.com/chengquanomg/iqy_checkin/blob/master/images/cron.png)
 
 ### 交流群号：1091479780
 
