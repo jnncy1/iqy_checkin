@@ -1,13 +1,14 @@
 /*
  * @Author: chengquan
  * @Date: 2020-08-05 15:28:57
- * @LastEditTime: 2020-08-06 11:03:32
+ * @LastEditTime: 2020-08-10 10:40:56
  * @Description: 爱奇艺每日签到和会员抽奖
  * @FilePath: \iqy_checkin\iqiyi.js
+ * @交流群:1091479780
  */
 const axios = require('axios');
 /**
- * 这里的cookie需要在app端 个人中心处抓包 在url里搜auth-cookie
+ * 这里的cookie需要在app端 个人中心处抓包 在url里搜authcookie
  * 不是请求头里的cookie
  * 例子：e6Um38snn9zAGBdrEkMgqWLsm3RO97pfAhwJi84ypALsm3qM0JfHGlvXm3le5***********
  */
